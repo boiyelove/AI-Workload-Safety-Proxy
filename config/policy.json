@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "AI-Workload-Safety-Proxy",
+  "rank": 15,
+  "action": "plan_ai_workload_safety_proxy",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
